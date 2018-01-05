@@ -4,7 +4,7 @@ This is my current resume (updated as of January 5th)
 
 ## Personal links
 
-[Linkedin](https://www.linkedin.com/in/alex-mckinnon/) - My profile
+[Linkedin](https://www.linkedin.com/in/alex-mckinnon/) - My profile <br />
 [Personal Website](https://mckinnon.io) - Additional personal information
 
 ## Resources
