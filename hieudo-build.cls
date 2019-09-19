@@ -9,13 +9,13 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.5cm, vmargin=1.5cm]{geometry}
+\usepackage[hmargin=1.0cm, vmargin=1.0cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
 \usepackage[absolute]{textpos}
-\usepackage[english]{babel}
-\usepackage[english]{isodate}
+\usepackage[UKenglish]{babel}
+\usepackage[UKenglish]{isodate}
 \usepackage{fontspec,xltxtra,xunicode}
 \usepackage{fontawesome}
 \pagenumbering{gobble}
@@ -43,12 +43,12 @@
 
 % Name command
 \newcommand{\namesection}[2]{
-	\hspace{-1.4em}\raggedright{\parbox[b]{30em}{\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Med}\fontsize{51pt}{0cm}\selectfont #1}}
+	\hspace{-1.4em}\raggedright{\parbox[b]{30em}{\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Med}\fontsize{46pt}{0cm}\selectfont #1}}
     \hfill
     \raggedleft{\parbox[b]{12em}{\color{headings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{11pt}{14pt}\selectfont #2}}
-   	\vspace{1.2em} 
+   	\vspace{0.5em} 
 }
-\titlespacing{\section}{0pt}{0pt}{2.2pt}
+\titlespacing{\section}{0pt}{0pt}{2.0pt}
 
 % Headings command
 \titleformat{\section}{\color{headings}
