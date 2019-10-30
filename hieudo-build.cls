@@ -45,7 +45,7 @@
 \newcommand{\namesection}[2]{
 	\hspace{-1.4em}\raggedright{\parbox[b]{30em}{\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Med}\fontsize{46pt}{0cm}\selectfont #1}}
     \hfill
-    \raggedleft{\parbox[b]{12em}{\color{headings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{11pt}{14pt}\selectfont #2}}
+    \raggedleft{\parbox[b]{8.5em}{\color{headings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{9pt}{10pt}\selectfont #2}}
    	\vspace{0.5em} 
 }
 \titlespacing{\section}{0pt}{0pt}{2.0pt}
