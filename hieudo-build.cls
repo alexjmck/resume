@@ -17,7 +17,7 @@
 \usepackage[UKenglish]{babel}
 \usepackage[UKenglish]{isodate}
 \usepackage{fontspec,xltxtra,xunicode}
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \pagenumbering{gobble}
 \usepackage{datetime2}
 
@@ -34,6 +34,8 @@
 \newcommand{\custombold}[1]
 {\color{subheadings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-ExtraLight}\selectfont #1 \normalfont}
 \linespread{1.1}
+
+\defaultfontfeatures{Path = /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/fontawesome/}
 
 % Date format
 \DTMnewdatestyle{mylastupdate}{%
